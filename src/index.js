@@ -1,2 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import {createRoot} from 'react-dom/client'
+import NavBar from './navbar';
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+const Main = () => {
+  return (
+    <NavBar />
+  )
+}
+
+root.render(<Main />);

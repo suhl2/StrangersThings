@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffa952; 
+}
+
+#navbar h1 {
+  padding: 1em;
+  flex-basis: 80%;
+}
+
+nav {
+  display: flex;
+}
+nav a {
+  padding: 1em;
+}
